@@ -9,7 +9,7 @@ A Test Repo for MLGit.
 
 ### Naming Scheme
 
-- `<module acronym>_dummy_<type>_<n>` for each identifier.
+- `<module name or module acronym>_dummy_<type>_<n>` for each identifier.
 
 ### Imports
 
