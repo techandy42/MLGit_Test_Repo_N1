@@ -25,9 +25,6 @@ def external_modules_dummy_func_1():
     print(repr(udc2))
     print("external_modules.external_modules_dummy_func_1()")
 
-def external_modules_dummy_func_2():
-    print("external_modules.external_modules_dummy_func_2()")
-
 if __name__ == "__main__":
     print("[Running external_modules.py]")
     external_modules_dummy_func_1()

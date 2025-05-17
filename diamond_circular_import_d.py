@@ -8,5 +8,6 @@ def did_dummy_consumer_1():
     print("didmond_circular_import_a.did_dummy_consumer_1()")
 
 if __name__ == "__main__":
-    print("[Running didmond_circular_import_a.py]")
+    print("[Running didmond_circular_import_d.py]")
+    did_dummy_producer_1()
     did_dummy_consumer_1()
