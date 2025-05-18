@@ -1,5 +1,5 @@
-# Cache files
+# Built artifacts
 __pycache__/
 
-# MLGit
+# MLGit folder
 .mlgit/
