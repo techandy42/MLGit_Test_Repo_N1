@@ -1,0 +1,49 @@
+{
+    "/Users/andylee/Desktop/summer_2025/MLGit_Test_Repo_N1/circular_import_a.py": [
+        "/Users/andylee/Desktop/summer_2025/MLGit_Test_Repo_N1/circular_import_b.py"
+    ],
+    "/Users/andylee/Desktop/summer_2025/MLGit_Test_Repo_N1/circular_import_b.py": [
+        "/Users/andylee/Desktop/summer_2025/MLGit_Test_Repo_N1/circular_import_a.py"
+    ],
+    "/Users/andylee/Desktop/summer_2025/MLGit_Test_Repo_N1/circular_import_c.py": [
+        "/Users/andylee/Desktop/summer_2025/MLGit_Test_Repo_N1/circular_import_d.py"
+    ],
+    "/Users/andylee/Desktop/summer_2025/MLGit_Test_Repo_N1/circular_import_d.py": [
+        "/Users/andylee/Desktop/summer_2025/MLGit_Test_Repo_N1/circular_import_c.py"
+    ],
+    "/Users/andylee/Desktop/summer_2025/MLGit_Test_Repo_N1/diamond_circular_import_a.py": [],
+    "/Users/andylee/Desktop/summer_2025/MLGit_Test_Repo_N1/diamond_circular_import_b.py": [
+        "/Users/andylee/Desktop/summer_2025/MLGit_Test_Repo_N1/diamond_circular_import_a.py"
+    ],
+    "/Users/andylee/Desktop/summer_2025/MLGit_Test_Repo_N1/diamond_circular_import_c.py": [
+        "/Users/andylee/Desktop/summer_2025/MLGit_Test_Repo_N1/diamond_circular_import_a.py"
+    ],
+    "/Users/andylee/Desktop/summer_2025/MLGit_Test_Repo_N1/diamond_circular_import_d.py": [
+        "/Users/andylee/Desktop/summer_2025/MLGit_Test_Repo_N1/diamond_circular_import_a.py",
+        "/Users/andylee/Desktop/summer_2025/MLGit_Test_Repo_N1/diamond_circular_import_b.py",
+        "/Users/andylee/Desktop/summer_2025/MLGit_Test_Repo_N1/diamond_circular_import_c.py"
+    ],
+    "/Users/andylee/Desktop/summer_2025/MLGit_Test_Repo_N1/outer_module_consumer_a.py": [
+        "/Users/andylee/Desktop/summer_2025/MLGit_Test_Repo_N1/src/subdirectory_1/inner_module_producer_a.py"
+    ],
+    "/Users/andylee/Desktop/summer_2025/MLGit_Test_Repo_N1/outer_module_producer_a.py": [],
+    "/Users/andylee/Desktop/summer_2025/MLGit_Test_Repo_N1/src/app.py": [],
+    "/Users/andylee/Desktop/summer_2025/MLGit_Test_Repo_N1/src/definitions.py": [],
+    "/Users/andylee/Desktop/summer_2025/MLGit_Test_Repo_N1/src/external_modules.py": [],
+    "/Users/andylee/Desktop/summer_2025/MLGit_Test_Repo_N1/src/subdirectory_1/inner_module_consumer_a.py": [
+        "/Users/andylee/Desktop/summer_2025/MLGit_Test_Repo_N1/outer_module_producer_a.py"
+    ],
+    "/Users/andylee/Desktop/summer_2025/MLGit_Test_Repo_N1/src/subdirectory_1/inner_module_producer_a.py": [],
+    "/Users/andylee/Desktop/summer_2025/MLGit_Test_Repo_N1/src/subdirectory_2/inner_module_circular_import_a.py": [],
+    "/Users/andylee/Desktop/summer_2025/MLGit_Test_Repo_N1/src/subdirectory_2/inner_module_circular_import_b.py": [],
+    "/Users/andylee/Desktop/summer_2025/MLGit_Test_Repo_N1/src/utils.py": [],
+    "/Users/andylee/Desktop/summer_2025/MLGit_Test_Repo_N1/triple_circular_import_a.py": [
+        "/Users/andylee/Desktop/summer_2025/MLGit_Test_Repo_N1/triple_circular_import_c.py"
+    ],
+    "/Users/andylee/Desktop/summer_2025/MLGit_Test_Repo_N1/triple_circular_import_b.py": [
+        "/Users/andylee/Desktop/summer_2025/MLGit_Test_Repo_N1/triple_circular_import_a.py"
+    ],
+    "/Users/andylee/Desktop/summer_2025/MLGit_Test_Repo_N1/triple_circular_import_c.py": [
+        "/Users/andylee/Desktop/summer_2025/MLGit_Test_Repo_N1/triple_circular_import_b.py"
+    ]
+}
