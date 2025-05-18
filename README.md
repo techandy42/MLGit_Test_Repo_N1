@@ -44,11 +44,11 @@ b  |  c
 
 - (1) `outer_module_producer_a.py`:
 - (2) `outer_module_consumer_a.py`: (7)
-- (3) `src/app.py`: (4), (5), (7)
-- (4) `src/definitions.py`:
-- (5) `src/externals_modules.py`: (os), (math), (6)
-- (6) `src/utils.py`:
-- (7) `src/subdirectory_1/inner_module_producer_a.py`: (sys), (os), (9)
-- (8) `src/subdirectory_1/inner_module_consumer_a.py`: (sys), (os), (1)
-- (9) `src/subdirectory_2/inner_module_circular_import_a.py`: (10)
-- (10) `src/subdirectory_2/inner_module_circular_import_b.py`: (9)
+- (3) `app/app.py`: (4), (5), (7)
+- (4) `app/definitions.py`:
+- (5) `app/externals_modules.py`: (os), (math), (6)
+- (6) `app/utils.py`:
+- (7) `app/subdirectory_1/inner_module_producer_a.py`: (sys), (os), (9)
+- (8) `app/subdirectory_1/inner_module_consumer_a.py`: (sys), (os), (1)
+- (9) `app/subdirectory_2/inner_module_circular_import_a.py`: (10)
+- (10) `app/subdirectory_2/inner_module_circular_import_b.py`: (9)
